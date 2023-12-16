@@ -6,31 +6,34 @@
         <title>Livraria dos Panpas</title>
         <!-- CSS -->
         <link rel="stylesheet" href="styles/general.css" />
+        <link rel="stylesheet" href="styles/typografy.css" />
 
     </head> 
     <body>
         <!-- Cabeçalho do site -->
-        <header>
+        <header id="top">
             <!--titulo principal da pagina-->
             <h1>Livraria dos Panpas</h1>
+            <h2>Explorando Mundos entre Páginas: Sua Jornada Literária Começa Aqui!</h2>
 
             <!-- Menu de navegaçao -->
               <nav>
                 <ul id="menu">
-                  <li href="menu-item"></a class="menu-link" href="inicio">Inicio</a>
-                  <li href="menu-item"></a class="menu-link" href="Catalogo">Catalogo</a>
-                  <li href="menu-item"></a class="menu-link" href="manga">Manga</a>
-                  <li href="menu-item"></a class="menu-link" href="novela">Crime</a>
-                  <li href="menu-item"></a class="menu-link" href="darkside">darkside</a>
-                  <li href="menu-item"></a class="menu-link" href="Contato">Contato</a>
+                  <li class="menu-item"><a class="menu-link" href="#top">Inicio</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#"></a></li>
+                  <li class="menu-item"><a class="menu-link" href="#manga">Manga</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#crimes">Crimes</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#darkside">darkside</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#"></a></li>
                 </ul>
               </nav>
-            </div>
         </header>
 
         <!-- Conteudo principal do site -->
         <main>
-            <section id="gallery">
+            <section id="manga">
+              <h3>Mangá</h3>
+              <div class="galeria">
                 <article class="book-item">
                   <img src="images/demon slayer 2.jpg" alt="Demon slayer" title="Demon slayer"/>
                   <span class="book-title">Demon slayer</span>
@@ -73,6 +76,56 @@
                   <span class="book-price">R$ 65</span>
                   <button>Comprar</button>
                 </article>
+              </div>
+            </section>
+            <section id="darkside">
+              <h3>Darkside</h3>
+              <div class="galeria">
+                  <article class="book-item">
+                    <img src="images/antologia-dark-0.webp" alt="antologia" title="antologia"/>
+                    <span class="book-title">antologia</span>
+                    <span class="book-price">R$ 152</span>
+                    <button>Comprar</button>
+                  </article>
+                  <article class="book-item">
+                    <img src="images/chucky_loja_1.png" alt="chucky" title="chucky"/>
+                    <span class="book-title">chucky</span>
+                    <span class="book-price">R$ 165</span>
+                    <button>Comprar</button>
+                  </article>
+                  <article class="book-item">
+                    <img src="images/contos_de_fadas_celtas_1.png" alt="contos de fadas celtas" title="contos de fadas celtas"/>
+                    <span class="book-title">contos de fadas celtas</span>
+                    <span class="book-price">R$ 145</span>
+                    <button>Comprar</button>
+                  </article>
+                  <article class="book-item">
+                    <img src="images/exorcista_slime_loja_1.png" alt="exorcista slime" title="exorcista slime"/>
+                    <span class="book-title">exorcista slime</span>
+                    <span class="book-price">R$ 125</span>
+                    <button>Comprar</button>
+                  </article>
+                  <article class="book-item">
+                    <img src="images/grimorio das bruxas.jpg" alt="grimorio das bruxas" title="grimorio das bruxas"/>
+                    <span class="book-title">grimorio das bruxas</span>
+                    <span class="book-price">R$ 185</span>
+                    <button>Comprar</button>
+                  </article>
+                  <article class="book-item">
+                    <img src="images/o bosque das coisas perdidas.jpg" alt="o bosque das coisas perdidas" title="o bosque das coisas perdidas"/>
+                    <span class="book-title">o bosque das coisas perdidas</span>
+                    <span class="book-price">R$ 105</span>
+                    <button>Comprar</button>
+                  </article>
+                  <article class="book-item">
+                    <img src="images/wicked_loja_1.png" alt="wicked" title="wicked"/>
+                    <span class="book-title">wicked</span>
+                    <span class="book-price">R$ 135</span>
+                    <button>Comprar</button>
+                  </article>
+            </section>
+            <section id="crimes">
+              <h3>Crimes</h3>
             </section>
         </main>
         <!-- Rodape -->
